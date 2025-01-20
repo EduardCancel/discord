@@ -84,3 +84,14 @@ header{
     }
 }
 
+.technology{
+
+    .container{
+        min-height: 450px;
+    }
+}
+
+footer{
+    background-color: aqua;
+    min-height: 450px;
+}
