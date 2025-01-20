@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-header{
-    background-color: aqua;
-    min-height: 80px;
-}
-
 :root{
     --dis-primary-color: #aqua
 }
@@ -18,5 +13,34 @@ section{
 }
 
 .container{
-    
+    width: 80%;
+    margin: auto;
+}
+
+.d-flex{
+    display: flex
+}
+
+.w-40{
+width: 40%;
+}
+
+.w-60{
+    width: 60%;
+}
+
+header{
+    background-color: aqua;
+    padding: 1rem 0;
+    display: flex;
+
+    .logo,
+    .actions{
+        flex-grow: 1;
+    }
+
+    .actions{
+        text-align: end;
+        
+    }
 }
